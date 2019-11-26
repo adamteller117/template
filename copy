@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../../../favicon.ico">
+        <title>Adam Teller</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Place your stylesheet here-->
+        <link href="../css/main.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/fonts.css">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+
+    <body>
+
+ <!--   <div class="spinner-wrapper">
+      <div class="p-center-wrapper">
+        <div class="la-line-scale la-dark">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <h4 id="preloader-title"></h4>
+            <h5 id="preloader-content"></h5>
+        </div>
+
+      </div>
+
+    </div>-->
+
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar-id">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsible-nav">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Adam Teller</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="collapsible-nav">
+            <ul class="nav navbar-nav">
+                <li><a class="selected hvr-underline-from-left" href="#my-work">Projects</a></li>
+                <li><a class="hvr-underline-from-left" href="../assets/Yanfeng-Jin-Resume-v8.3.pdf" target="_blank">Resume</a></li>
+                <li><a class="hvr-underline-from-left" href="https://medium.com/@yanfengjin" target="_blank">Writings</a></li>
+                <li><a class="hvr-underline-from-left" href="about-me.html">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid col-centered" id="my-work">
+        <ul class="thumbnail-grid">
+            <a href="./works/eatxplore.html">
+                <li data-aos="fade-up" data-aos-duration="600" class="thumbnail-grid-item">
+                    <div class="card" style="background-image: url(../assets/portfolio-eatxplore-thumbnail.png); background-size: contain; background-repeat: no-repeat;">
+                        <div class="card-pants">
+                            <h4 class="card-title">
+                                Eatxplore
+                            </h4>
+                            <h5 class="card-subtitle">
+                                UX/UI Design, Motion Design, Crowdsourcing
+                            </h5>
+                            <p class="card-content">
+                                Breaking the Cultural Barriers of Food
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </a>
+            
+            <a href="./works/photos.html">
+                <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="200" class="thumbnail-grid-item">
+                    <div class="card"  style="background-image: url(../assets/portfolio-photos-thumbnail-1.png); background-size: contain; background-repeat: no-repeat;">
+                        <div class="card-pants">
+                            <h4 class="card-title">
+                                Google Photos Redesign
+                            </h4>
+                            <h5 class="card-subtitle">
+                                UX/UI Design, Motion Design, AI
+                            </h5>
+                            <p class="card-content">
+                                Better discover and compare your best memories with Photo Groups.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </a>
+
+            <a href="./works/mirror-mirror.html">
+                <li data-aos="fade-up" data-aos-duration="600" data-aos-offset="-50" class="thumbnail-grid-item">
+                    <div class="card" style="background-image: url(../assets/portfolio-walker-thumbnail.png); background-size: contain; background-repeat: no-repeat;">
+                        <div class="card-pants">
+                            <h4 class="card-title">
+                                Mirror Mirror
+                            </h4>
+                            <h5 class="card-subtitle">
+                                UX Design, UX Research, AI
+                            </h5>
+                            <p class="card-content">
+                                Using AI to Cultivate Mindfulness in Personal Finance Management
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </a>
+
+            <a href="./works/THD.html">
+                <li data-aos="fade-up" data-aos-duration="600" data-aos-offset="-50" data-aos-delay="200" class="thumbnail-grid-item">
+                    <div class="card" style="background-image: url(../assets/portfolio-THD-thumbnail-web.png); background-size: contain; background-repeat: no-repeat;">
+                        <div class="card-pants">
+                            <h4 class="card-title">
+                                My Home Depot Internship
+                            </h4>
+                            <h5 class="card-subtitle">
+                                UX/UI Design, UX Research, Internship
+                            </h5>
+                            <p class="card-content">
+                                What I learned and what I could have done during my Home Depot internship.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </a>
+
+            <a href="./works/cook-fresh.html">
+              <li data-aos="fade-up" data-aos-duration="600" data-aos-offset="-50" class="thumbnail-grid-item">
+                <div class="card"  style="background-image: url(../assets/portfolio-CookFresh-thumbnail.png); background-size: contain; background-repeat: no-repeat;">
+                  <div class="card-pants">
+                    <h4 class="card-title">
+                      Cook Fresh
+                    </h4>
+                    <h5 class="card-subtitle">
+                      Voice User Interface Design
+                    </h5>
+                    <p class="card-content">
+                      Smart Cooking Assistant that Reduces Food Waste
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </a>
+
+            <a href="./works/up-up.html">
+              <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="200" data-aos-offset="-50" class="thumbnail-grid-item">
+                <div class="card"  style="background-image: url(../assets/portfolio-up-thumbnail.png); background-size: contain; background-repeat: no-repeat;">
+                  <div class="card-pants">
+                    <h4 class="card-title">
+                      Up & Up
+                    </h4>
+                    <h5 class="card-subtitle">
+                      UX Design, Motion Design, UX Research
+                    </h5>
+                    <p class="card-content">
+                      Collective Breathing Game for Stress Relief
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </a>
+
+            <a href="./works/rei-backpack.html">
+              <li data-aos="fade-up" data-aos-duration="600" data-aos-offset="-50" class="thumbnail-grid-item">
+                <div class="card"  style="background-image: url(../assets/portfolio-REI-thumbnail.png); background-size: contain; background-repeat: no-repeat;">
+                  <div class="card-pants">
+                    <h4 class="card-title">
+                      REI Backpack Finder
+                    </h4>
+                    <h5 class="card-subtitle">
+                      UX/UI Design, UX Research
+                    </h5>
+                    <p class="card-content">
+                      Helping Novice Backpackers Find the Perfect Backpack
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </a>
+
+            <a href="./works/thriller.html">
+              <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="200" data-aos-offset="-50"  class="thumbnail-grid-item">
+                <div class="card"  style="background-image: url(../assets/portfolio-thriller-thumbnail.png); background-size: contain; background-repeat: no-repeat;">
+                  <div class="card-pants">
+                    <h4 class="card-title">
+                      The Resurrected
+                    </h4>
+                    <h5 class="card-subtitle">
+                      VR Experience Design, VR Development
+                    </h5>
+                    <p class="card-content">
+                      VR Dancing/Imitation Experience in Oculus Rift
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </a>
+
+
+
+
+
+      </ul>
+
+
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row footer-row">
+            <div class="footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p class="footer-text">Designed and Handcoded with <i class="fa fa-heart"></i> and <i class="fa fa-music"></i></p>
+            </div>
+            <div class="footer-icons col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p>
+                    <a href="https://www.linkedin.com/in/adam-teller-b7751493" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+                    <a href="mailto:adammichaelteller@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+                </p>
+                <br>
+          <p class="footer-text-small">Adam Teller © 2019-2020 All Rights Reserved</p>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
