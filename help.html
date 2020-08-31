@@ -1,0 +1,945 @@
+<div class="content-wrapper" data-ng-app="Access">
+	<div class="row">
+  		<div class="col-md-9 grid-margin stretch-card" id="main">
+  			<div class="card"  data-ng-controller="AccessController as c">
+  				<div class="card-body">
+  					<h4 class="card-title">
+		                <nav aria-label="breadcrumb">
+		                    <ol class="breadcrumb">
+		                        <li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+		                    	<li class="breadcrumb-item active" aria-current="page">Help</li>
+		                	</ol>
+		            	</nav>
+					</h4>
+					<!-- 
+                  	<p class="card-description">
+                    	Test
+                  	</p>
+                  	 -->
+                  	 <div class="mt-4">
+                    	<div class="accordion" id="accordion" role="tablist">
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-1">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1" class="collapsed">
+                              				First Time Logging In
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-1" class="collapse" role="tabpanel" aria-labelledby="heading-1" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>The first time that the provider logs into the system, a box will appear confirming the use of an administrative proxy. The administrative proxy is someone that enters data on behalf of the provider. The provider will still need to review and attest. </p>
+										<p>The provider can assign a proxy by completing the requested information and signing the release of information which will appear by selecting Next. The assigned proxy will automatically be given access to the provider's Smartform and a notification is sent to the email provided. At this point, the provider can log out of the system to allow for the proxy to complete the form.</p> 
+										<p>If the provider does not wish to assign an administrative proxy, clicking Cancel will remove the box. The box will still appear each time the provider logs in unless the Do Not Show Again is clicked.</p> 
+										<p>A proxy may be added at any future date through the Proxies module in the menu on the left side of the screen.</p> 
+										<img src="images/help/help_1.png" class="mw-100" alt="image">          
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-1">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2" class="collapsed">
+                              				Practitioner Center Home page
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-2" class="collapse" role="tabpanel" aria-labelledby="heading-1" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Alerts - Alerts will show the practitioner any notifications regarding credentialing items </li>
+											<li>Expirables - Expirables will show a list of the expiration dates for all credentialing items</li>
+											<li>Validation - Validation is a list of any section that has had modifications that need to be reviewed</li> 
+											<li>Unattested - Unattested is a list of all sections that are pending attestation. </li>
+											<li>
+												Frequent Practitioner Data Updates - The boxes represented allow for the practitioner and/or proxy to quickly access the listed sections for modifications and/or updates.
+												<ul>
+													<li>Board Certifications</li>
+													<li>State Licenses</li>
+													<li>Contact Information</li>
+													<li>Office Information</li>
+													<li>Employment</li>
+													<li>Current Privileges</li>
+												</ul>
+											</li> 
+                          				</ul>
+										<img src="images/help/help_2.png" class="mw-100" alt="image">          
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-1">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Name
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-3" class="collapse" role="tabpanel" aria-labelledby="heading-1" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>What is your NPI - The registration number issued to the practitioner by NPPES</li>
+											<li>What type of practitioner are you - Select the practitioner type from the drop down based upon the provider's practice.</li> 
+											<li>First Name - Provider's legal first name</li>
+											<li>Preferred name - The name used to refer to the provider.</li> 
+											<li>Middle name - Provider's legal middle name</li>
+											<li>Last name - Provider's legal last name</li>
+											<li>Suffix - Select the suffix. If appropriate for the provider from the drop down.  </li> 
+                          				</ul>
+										<img src="images/help/help_3.png" class="mw-100" alt="image">          
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-4">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Initials
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-4" class="collapse" role="tabpanel" aria-labelledby="heading-4" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				Using a mouse or touch screen, enter the practitioner's initials
+										<img src="images/help/help_4.png" class="mw-100" alt="image">          
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-5">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Signature
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-5" class="collapse" role="tabpanel" aria-labelledby="heading-5" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				Using a mouse or touch screen, enter the practitioner's signature
+										<img src="images/help/help_5.png" class="mw-100" alt="image">          
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-6">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Birth Information
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-6" class="collapse" role="tabpanel" aria-labelledby="heading-6" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Date of birth - Practitioner's date of birth</li>
+											<li>Country - Practitioner's country of birth</li>
+											<li>State/Province - Practitioner's state or province of birth</li>
+											<li>City - Practitioner's city of birth</li>
+											<li>Gender - Select Male or Female from drop down</li>
+											<li>Race - Select practitioner's race from drop down</li>
+											<li>Ethnicity - Select practitioner's ethnicity from drop down</li>
+										</ul>
+										<img src="images/help/help_6.jpg" class="mw-100" alt="image">          
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-7">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-7" aria-expanded="false" aria-controls="collapse-7" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Contact Information
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-7" class="collapse" role="tabpanel" aria-labelledby="heading-7" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Address - Enter the street address and select the appropriate complete address from the google list</li>
+											<li>Telephone number - Enter the practitioner's phone number. If the practitioner only has a single number, then enter the same number into both the telephone number and the cell phone number field. </li>
+											<li>Cell phone number - Enter the practitioner's cell phone number. </li>
+											<li>Fax number - this field can be left blank if the provider does not have a personal fax number</li>
+											<li>Pager number - Enter the practitioner's pager number, if applicable. </li>
+											<li>Personal email - Enter the practitioner's personal email address. **Note: this email address will be used to create the provider's Practitioner Center account, as well as where notifications will be sent regarding all credentialing items. </li>
+											<li>Preferred method of contact - Select the best method to contact the provider from the drop down. </li>
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-8">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-8" aria-expanded="false" aria-controls="collapse-8" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Office Contact Information
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-8" class="collapse" role="tabpanel" aria-labelledby="heading-8" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Address - Enter the street address of the provider's primary office/practice location and select the appropriate complete address from the google list</li>
+											<li>Telephone number - Enter the phone number for the practitioner's primary office location</li>
+											<li>Fax number - Enter the fax number for the practitioner's primary office location. </li>
+											<li>Office Representative First Name - Enter the first name of the practitioner's office manager or practice manager</li>
+											<li>Office Representative Last Name - Enter the last name of the practitioner's office manager or practice manager</li>
+											<li>Office Representative email - Enter the email address for the practitioner's office manager or practice manager</li>
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-9">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-9" aria-expanded="false" aria-controls="collapse-9" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Reported Aliases
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-9" class="collapse" role="tabpanel" aria-labelledby="heading-9" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Have you been known by or used any other name(s) - Select yes or no</li>
+											<li>First Name - Enter the first name used in an Alias</li>
+											<li>Middle name - Enter the middle name used in an Alias</li>
+											<li>Last name - Enter the last name used in an Alias</li>
+											<li>Suffix - Enter the suffix, if applicable from the drop down, used in an Alias</li>
+											<li>Date started - Enter the date the practitioner began using the Alias</li>
+											<li>Still using Alias - Select yes or no. If no is selected, Enter the date the practitioner stopped using the Alias</li>
+											<li>Please choose an explanation for this Alias from the drop down</li>
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-10">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-10" aria-expanded="false" aria-controls="collapse-10" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Citizenship
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-10" class="collapse" role="tabpanel" aria-labelledby="heading-10" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Are you a US Citizen - Select yes or no</li>
+											<li>Social Security Number - Enter the practitioner's social security number</li>
+											<li>Drivers License - Enter the practitioner's current driver license number</li>
+											<li>Do you have citizenship in any other countries - select yes or no</li>
+											<li>If yes, select a country from the drop down</li>
+											<li>Are you licensed to practice in other countries - select yes or no</li>
+											<li>If yes, select a country where the practitioner is licensed</li>
+											<li>Upload Supporting Documents - It is required to upload a copy of the practitioner's current drivers license. </li>
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-11">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-11" aria-expanded="false" aria-controls="collapse-11" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > English Language
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-11" class="collapse" role="tabpanel" aria-labelledby="heading-11" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Can you speak English - select yes or no</li>
+											<li>English your native language - select yes or no</li>
+											<li>Select the level of language for reading, writing, and fluency</li>
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-12">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-12" aria-expanded="false" aria-controls="collapse-12" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Other languages
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-12" class="collapse" role="tabpanel" aria-labelledby="heading-12" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Can you speak other languages - select yes or no</li>
+											<li>Language - select the language from the drop down</li>
+											<li>Is this your native language - select yes or no</li>
+											<li>Select the level of language for reading, writing, and fluency for this language</li>
+											<li>Select the Add button to the right if the practitioner speaks more than one additional language.</li>
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-13">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-13" aria-expanded="false" aria-controls="collapse-13" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Credentialing contact
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-13" class="collapse" role="tabpanel" aria-labelledby="heading-13" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Is the practitioner the primary contact person for your credentialing applications and forms? Select yes or no</li>
+											<li>First Name - If no was selected, enter the first name of the contact</li>
+											<li>Middle Name - Entering the middle name is not required</li>
+											<li>Last Name - Enter the last name of the contact</li>
+											<li>Job title - Enter the job title of the contact</li>
+											<li>Is this a third party vendor who manages your credentialing - select yes or no</li>
+											<li>Address  - Enter the address of the credentialing contact and then select the appropriate address from the google drop down. </li>
+											<li>Telephone number - enter the phone number of the credentialing contact</li>
+											<li>Fax number - enter the fax number of the credentialing contact, if available</li>
+											<li>Work email - enter the email address of the credentialing contact</li>                          				
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-14">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-14" aria-expanded="false" aria-controls="collapse-14" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Photograph
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-14" class="collapse" role="tabpanel" aria-labelledby="heading-14" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+                          					<li>Upload a recent professional photo of the practitioner - This will be used for directory purposes</li>
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-15">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-15" aria-expanded="false" aria-controls="collapse-15" class="collapsed">
+                              				Smartform > Practitioner Data > Primary Information > Emergency Contact
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-15" class="collapse" role="tabpanel" aria-labelledby="heading-15" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>First name - enter the first name of the contact for the practitioner in the event of an emergency</li>
+											<li>Last name - enter the last name of the contact for the practitioner in the event of an emergency</li>
+											<li>Telephone number - enter the phone number of the contact for the practitioner in the event of an emergency</li>
+											<li>Email - enter the email address of the contact for the practitioner in the event of an emergency</li>
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-16">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-16" aria-expanded="false" aria-controls="16" class="collapsed">
+                              				Smartform > Practitioner Data > Licensure, Specialty, & Certifications > State Professional License
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-16" class="collapse" role="tabpanel" aria-labelledby="heading-16" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>State professional license number - enter the license number of the state issued license</li>
+											<li>State - enter the state that issued the license</li>
+											<li>Is this your primary state license - select yes or no</li>
+											<li>Do you currently practice in this state - select yes or no</li>
+											<li>License issue date - enter the date the license was issued</li>
+											<li>License expiration date - enter the date of the expiration of the license</li>
+											<li>License status code - enter the current status of the license</li>
+											<li>License title - enter the type of license issued</li>
+											<li>Are there any limitations to your state license - select yes or no</li>
+											<li>Upload license - it is required that a copy of the current license be uploaded. </li>
+											<li>If the practitioner has more than one license, click the Save button and then the Add button</li>
+										</ul>
+										<strong>NOTE: A copy of the provider's current state license card MUST be uploaded here. </strong>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-17">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-17" aria-expanded="false" aria-controls="collapse-17" class="collapsed">
+                              				Smartform > Practitioner Data > Licensure, Specialty, & Certifications > Medical Education Number & USMLE
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-17" class="collapse" role="tabpanel" aria-labelledby="heading-17" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Do you have a Medical Education Number (AMA number) - select yes or no. If yes, enter the AMA registration number</li>
+											<li>Do you have a USMLE number - select yes or no. If yes, enter the USMLE number</li>
+											<li>Do you have a CAQH ProView login ID - select yes or no. If yes, enter the ID number, login, and password</li>
+											<li>Do you have a PECOS login - select yes or no. If yes, enter practitioner's PECOS login and password</li>
+											<li>Do you accept Medicaid - select yes or no. If yes, enter the Medicaid registration number</li>
+											<li>Do you accept Medicare - select yes or no. If yes, enter the provider PTAN number.  If applicable, enter the RR PTAN number</li>
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-18">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-18" aria-expanded="false" aria-controls="collapse-18" class="collapsed">
+                              				Smartform > Practitioner Data > Licensure, Specialty, & Certifications > DEA Registration
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-18" class="collapse" role="tabpanel" aria-labelledby="heading-18" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Do you have a current DEA Registration - select yes or no</li>
+											<li>Federal DEA registration number - enter provider's current DEA number</li>
+											<li>Issue date - enter the issue date of the DEA number</li>
+											<li>Expiration date - enter the expiration date of DEA number</li>
+											<li>State of DEA Registration - enter the state of the registration</li>
+											<li>DEA registration status - enter the current status of the DEA registration</li>
+											<li>Check all approved drug schedules - click all schedules reflected on registration</li>
+											<li>Are there any limitations within your approved drug schedules - select yes or no. If yes, enter the limitation</li>
+											<li>Upload DEA registration - It is required that a current copy of the DEA card be uploaded. </li>
+											<li>If the provider holds multiple DEA registrations, click the Add button to the right</li>
+
+										</ul>
+										<strong>NOTE: A copy of the provider's current DEA Card MUST be uploaded here.</strong>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-19">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-19" aria-expanded="false" aria-controls="collapse-19" class="collapsed">
+                              				Smartform > Practitioner Data > Licensure, Specialty, & Certifications > Controlled Dangerous Substances
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-19" class="collapse" role="tabpanel" aria-labelledby="heading-19" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>What is the status of your CDS registration - select the appropriate status for the practitioner's CDS. If the practitioner is in a state that does not require a CDS, then select "I have never had a CDS license or certificate""</li>
+											<li>CDS number - enter the CDS registration number</li>
+											<li>Issue date - enter the date the CDS number was issued</li>
+											<li>Expiration date - enter the date the current CDS expires</li>
+											<li>State of CDS registration - enter the state that issued the CDS</li>
+											<li>CDS registration status - enter the status of the current CDS registration</li>
+											<li>Are there any limitations to your CDS registration - select yes or no</li>
+											<li>Upload CDS registration</li>
+
+										</ul>
+										<strong>NOTE: A copy of the provider's CDS card, if applicable, MUST be uploaded here. </strong>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-20">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-20" aria-expanded="false" aria-controls="collapse-20" class="collapsed">
+                              				Smartform > Practitioner Data > Licensure, Specialty, & Certifications > Specialty & Certifications
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-20" class="collapse" role="tabpanel" aria-labelledby="heading-20" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Classification - select the classification from the drop down that represents the specialty that the provider currently practices</li>
+											<li>Specification - select the specification from the drop down that represents the privileges that the practitioner currently practices</li>
+											<li>The taxonomy code should automatically populate for the correct taxonomy. </li>
+											<li>Is this your primary specialty - select yes or no. The practitioner must have at least one primary taxonomy. If the provider has more than one taxonomy, select the Add button to the right. </li>		
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-21">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-21" aria-expanded="false" aria-controls="collapse-21" class="collapsed">
+                              				Smartform > Practitioner Data > Licensure, Specialty, & Certifications > Board Certification
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-21" class="collapse" role="tabpanel" aria-labelledby="heading-21" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Are you currently, or have you ever been board certified - select yes or no</li>
+											<li>If yes, select the certifying entity from the drop down menu</li>
+											<li>General certificate - select the certificate type from the drop down menu</li>
+											<li>Subspecialty certificate - select the subspecialty certificate from the drop down menu, if applicable</li>
+											<li>Certificate number - enter the practitioner's certificate number</li>
+											<li>Is this your primary or secondary specialty - select primary or secondary</li>
+											<li>Is this certification Active - select yes or no</li>
+											<li>Are you participating in MOC - select yes or no</li>
+											<li>Do you wish to be listed in teh directory under this specialty - select yes or no</li>
+											<li>Is this certification lifetime or time-limited - select lifetime if "lifetime" is indicated on the certification. If the certificate has an expiration date, enter "time-limited". </li>
+											<li>Date of original certification - enter the date the certification was originally issued</li>
+											<li>If the certification is time-limited, enter the expiration date of the certificate</li>
+											<li>Upload certification - It is required that a current copy of the certification be uploaded.</li> 
+											<li>If the provider has multiple certifications, then click the Add button on the right. </li>
+										</ul>
+										<strong>NOTE: A copy of the provider's board certificate, if applicable, MUST be uploaded here.</strong>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-22">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-22" aria-expanded="false" aria-controls="collapse-22" class="collapsed">
+                              				Smartform > Practitioner Data > Licensure, Specialty, & Certifications > Other Certifications
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-22" class="collapse" role="tabpanel" aria-labelledby="heading-22" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Do you have any other certification - select yes or no</li>
+											<li>Certification - If yes, select the certification from the drop down menu</li>
+											<li>State - select the state that the certification was issued</li>
+											<li>Certification number - enter the certificate number issued</li>
+											<li>Certification status - enter the certification status</li>
+											<li>Certification status - enter the status of the certification</li>
+											<li>Certification Date - enter the issue date of the certification</li>
+											<li>Expiration date - enter the expiration date of the certificate</li>
+											<li>Upload certification - It is required that a copy of the certification be uploaded.</li> 
+											<li>If the provider has more than one certification, click the "Add" button to the right after the certificate has been saved</li>
+  				
+										</ul>
+										<strong>NOTE: A copy of the provider's life saving certificates, if applicable, MUST be uploaded here. </strong>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-23">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-23" aria-expanded="false" aria-controls="collapse-23" class="collapsed">
+                              				Smartform > Practitioner Data > Licensure, Specialty, & Certifications > Self Reported Specialties
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-23" class="collapse" role="tabpanel" aria-labelledby="heading-23" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>Would you like to report a non-board certified specialty - select yes or no. If yes, enter the name of the specialty, describe this specialty, and upload a copy of the supported documentation</li>
+  				
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-24">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-24" aria-expanded="false" aria-controls="collapse-24" class="collapsed">
+                              				Smartform > Practitioner Data > Education & Training > Undergraduate Education 
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-24" class="collapse" role="tabpanel" aria-labelledby="heading-24" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>The provider's information for Pre-Med or bachelor's degree should be entered in this section</li>	
+										</ul>
+										<strong>NOTE: A copy of the provider's Pre-Med or bachelor's degree diploma MUST be uploaded here.</strong>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-25">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-25" aria-expanded="false" aria-controls="collapse-25" class="collapsed">
+                              				Smartform > Practitioner Data > Education & Training > Postgraduate Education
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-25" class="collapse" role="tabpanel" aria-labelledby="heading-25" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>The provider's information for medical school or master's degree should be entered into this section. </li>
+										</ul>
+										<strong>NOTE: A copy of the provider's medical school diploma or master's degree diploma MUST be uploaded here.</strong>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-26">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-26" aria-expanded="false" aria-controls="collapse-26" class="collapsed">
+                              				Smartform > Practitioner Data > Education & Training > Internship, Residency, & Fellowship
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-26" class="collapse" role="tabpanel" aria-labelledby="heading-26" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					The provider's internship, residency, and fellowship, if applicable, should be entered into this section. Non-physician providers will select No for this section. 
+                          				</p>
+                          				<ul>
+											<li>Select yes to open the necessary fields. </li>
+											<li>Select the education type (internship, residency, or fellowship)</li>
+											<li>Enter all required information and click Save</li>
+											<li>After the information has been saved, click the Add button in the right column of the section. This will allow the additional information to be entered. Repeat steps ii and iii from above. </li>
+										</ul>
+										<strong>NOTE: A copy of the provider's internship, residency, and fellowship certificates MUST be uploaded here. </strong>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-27">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-27" aria-expanded="false" aria-controls="collapse-" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Current Employment
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-27" class="collapse" role="tabpanel" aria-labelledby="heading-27" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					The provider's current employer should be entered into this section. This is the entity by which the provider receives income. 
+                          				</p>
+                          				<ul>
+											<li>If the provider has more than one employer, additional employers can be entered by clicking the Add button on the right of the screen after the first employer has been saved. </li>
+										</ul>
+										
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-28">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-28" aria-expanded="false" aria-controls="collapse-28" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Past Employment 
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-28" class="collapse" role="tabpanel" aria-labelledby="heading-28" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>This section should be populated with all prior employer's for the provider</p>
+                          				<ul>
+											<li>If the provider has more than one employer, additional employers can be entered by clicking the Add button on the right of the screen after the first employer has been saved. </li>
+											<li>The section <strong>must</strong> include all employers from the point of completing medical school or master's programs. </li>
+
+										</ul>
+										
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-29">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-29" aria-expanded="false" aria-controls="collapse-29" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Current Privileges & Access
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-29" class="collapse" role="tabpanel" aria-labelledby="heading-29" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					This section should contain all facilities where the provider currently has privileges to perform procedures and/or care for patients
+                          				</p>
+                          				<ul>
+											<li>If the provider has privileges at more than one facility, additional facilities can be entered by clicking the Add button on the right of the screen after the first facility has been saved. </li>
+											<li>The section <strong>must</strong> include all facilities where the provider currently cares for patients. </li>
+											<li>If privileges are not required for the provider's type of care, select No for this section. </li>
+											<li>For non-physician providers, all supervising physicians <strong>must</strong> be entered for each facility. </li>
+											<li>For physicians who oversee providers (PA,NP, etc), those providers <strong>must</strong> be entered in the Sponsoring Practitioners area for each facility. </li>
+											<li>For physicians, the individual or group that will serve as back up to the provider for call coverage <strong>must</strong> be entered. </li>
+
+										</ul>
+										
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-299">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-299" aria-expanded="false" aria-controls="collapse-299" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Past Privileges & Access
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-299" class="collapse" role="tabpanel" aria-labelledby="heading-299" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					This section should contain all facilities where the provider has had privileges to perform procedures and/or care for patients
+                          				</p>
+                          				<ul>
+											<li>If the provider has had privileges at more than one facility, additional facilities can be entered by clicking the Add button on the right of the screen after the first facility has been saved. </li>
+											<li>The section must include all facilities where the provider previously cared for patients. </li>
+											<li>If privileges are not required for the provider's type of care, select No for this section. </li>
+										</ul>
+										
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-30">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-30" aria-expanded="false" aria-controls="collapse-30" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Practice Location
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-30" class="collapse" role="tabpanel" aria-labelledby="heading-30" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					Most providers will not populate this section. This section is if the practitioner provides care to patients at locations that are associated with the employer, such as a clinic.
+                          				</p>
+                          				<ul>
+											<li>If the provider cares for patients at more than one clinic or location, additional entities can be entered by clicking the Add button on the right of the screen after the first entity has been saved. </li>
+											<li>The section must include a contact for the location.</li>	
+										</ul>
+										
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-31">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-31" aria-expanded="false" aria-controls="collapse-31" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Non-Practicing Employment
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-31" class="collapse" role="tabpanel" aria-labelledby="heading-31" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					This section contains any employer where the practitioner receives income for work that is not for patient care, such as a business or administration. 
+                          				</p>
+                          				<ul>
+											<li>If the provider has more than one non-physician related employment, additional entities can be entered by clicking the Add button on the right of the screen after the first entity has been saved</li>
+										</ul>
+										
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-32">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-32" aria-expanded="false" aria-controls="collapse-32" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Postgraduate Teaching & Faculty Appointments
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-32" class="collapse" role="tabpanel" aria-labelledby="heading-32" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					If the provider has any postgraduate teaching or faculty appointments should be entered into this section. It must be an official position. 
+                          				</p>
+                          				<ul>
+											<li>If the provider has more than one non-physician related employment, additional entities can be entered by clicking the Add button on the right of the screen after the first entity has been saved</li>
+										</ul>
+										
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-33">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-33" aria-expanded="false" aria-controls="collapse-33" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Military Service
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-33" class="collapse" role="tabpanel" aria-labelledby="heading-33" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					If the provider has served in any branch of the military, this information should be populated here.
+                          				</p>
+                          				<ul>
+											<li>If the provider has served on more than one occasion or for more than one branch, additional information can be entered by clicking the Add button on the right of the screen after the first entity has been saved.</li>
+										</ul>
+										
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-34">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-34" aria-expanded="false" aria-controls="collapse-34" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Military Privileges 
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-34" class="collapse" role="tabpanel" aria-labelledby="heading-34" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					Military privileges are tracked somewhat differently from civilian facilities. If the provider has ever held privileges at a military facility, this information should be populated in this section.
+                          				</p>
+                          				<ul>
+											<li>If the provider currently holds or has held privileges at more than one facility, additional facilities can be entered by clicking the add button on the right of the screen after the first facility has been saved.</li>
+										</ul>
+										
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-35">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-35" aria-expanded="false" aria-controls="collapse-35" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Work Gaps
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-35" class="collapse" role="tabpanel" aria-labelledby="heading-35" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					It is part of the credentialing process that gaps of greater than 30 days be investigated. Enter any time frames where a provider was not employed as a practitioner
+                          				</p>
+                          				<ul>
+											<li>If the provider had multiple instances, additional time frames can be added by clicking the add button on the right of the screen after the first facility has been saved. </li>
+										</ul>
+										
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-36">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-36" aria-expanded="false" aria-controls="collapse-36" class="collapsed">
+                              				Smartform > Practitioner Data > Employment & Privileges > Medical Professional Reference
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-36" class="collapse" role="tabpanel" aria-labelledby="heading-36" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					The provider must enter at least three peer references in this section
+                          				</p>
+                          				<ul>
+											<li>The peer must be of equal profession, ie. Physicians must have 3 physician, NP must have 3 NP's, etc. </li>
+											<li>The peer must be associated with the provider for a period of longer than 6 months. </li>
+											<li>The peer must also have working knowledge of the provider within the past 6 months. </li>
+											<li>Additional peers can be added by clicking the add button on the right of the section after the first peer has been saved. </li>
+											
+										</ul>
+										<strong>NOTE: An email address must be populated for each peer reference</strong>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-37">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-37" aria-expanded="false" aria-controls="collapse-37" class="collapsed">
+                              				Smartform > Practitioner Data > Malpractice Coverage Information > Liability Insurance
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-37" class="collapse" role="tabpanel" aria-labelledby="heading-37" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<p>
+                          					A copy of current and/or previous malpractice face sheets must be uploaded to this section, unless not applicable.
+                          				</p>
+                          				<ul>
+											<li>Some provider types may be covered under a facility policy. For these providers, select Not Applicable for this section. </li>
+											<li>For providers where the employer to which the provider is currently making application will be issuing the insurance and will be the only current coverage, the provider can select Not Applicable at this time. The insurance information will be added to the Smartform profile by the credentialing team. </li>
+											<li>If the provider has had previous malpractice insurance coverage, this information must be listed in this section. Verification of prior malpractice claims is a credentialing requirement. The practitioner must provide the information for prior coverage in order to verify the claims history. </li>
+											<li>Additional malpractice information can be added to this section by selecting the add button on the right side of the section.</li>
+
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		<div class="card">
+                        		<div class="card-header" role="tab" id="heading-38">
+                          			<h6 class="mb-0">
+                            			<a data-toggle="collapse" href="#collapse-38" aria-expanded="false" aria-controls="collapse-38" class="collapsed">
+                              				Smartform > Practitioner Data > Achievements, Charity, & Authorships
+                            			</a>
+                          			</h6>
+                        		</div>
+                        		<div id="collapse-38" class="collapse" role="tabpanel" aria-labelledby="heading-38" data-parent="#accordion" style="">
+                          			<div class="card-body">
+                          				<ul>
+											<li>The provider may take advantage of utilizing the 3WON Smartform to maintain a complete provider profile (CV). This is not required information for the credentialing process. </li>
+											<li>Information can be added by selecting a type under each section (Professional Organizations, Community service & charity, Achievements, Honors & awards, and Authorships & Presentations) and complete the requested information. </li>
+										</ul>
+										<!-- <img src="images/help/help_6.jpg" class="mw-100" alt="image">     -->      
+                          			</div>
+                        		</div>
+                      		</div>
+                      		
+                      		
+                    	</div>
+                  	</div>
+  				</div>
+			</div>
+		</div>   
+		<div class="col-md-3 grid-margin" id="side">
+			<%@include file="_practitioner_info.jsp"%>
+			<%@include file="_help.jsp"%>
+		</div>         
+	</div>
+</div>
